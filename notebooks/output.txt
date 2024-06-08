@@ -1,0 +1,48 @@
+### Extracted Entities:
+
+#### Company Information:
+- **Company Name:** Musterfirma AG
+- **Address:** Musterstra&e 23, 12345 Musterhausen
+- **Phone Number:** +40 (0)30 12345678
+- **Email:** info@muster.de
+- **Website:** www.firma.de
+
+#### Recipient Information:
+- **Recipient Name:** Herr Schmidt
+
+#### Document Details:
+- **Date:** 01.03.2019
+- **Credit Note Number:** 2019-1004
+- **VAT ID:** DE123456789
+
+#### Credit Note Details:
+- **Position 1:**
+  - **Quantity:** 5
+  - **Unit:** Stick
+  - **Description:** Musterleistung
+  - **Unit Price:** 3,00 €
+  - **Total Price:** 15,00 €
+- **Position 2:**
+  - **Quantity:** 3
+  - **Unit:** Stick
+  - **Description:** Musterleistung
+  - **Unit Price:** 5,00 €
+  - **Total Price:** 15,00 €
+- **Net Price:** 30,00 €
+- **VAT (19%):** 5,70 €
+- **Total Credit Amount:** 35,70 €
+
+#### Bank Details:
+- **Bank Name:** Commerzbank
+- **IBAN:** DE3423 4562 3435 6765
+- **BIC:** COBADEFFXXX
+- **Account Holder:** Max Mustermann
+
+#### Legal Information:
+- **Commercial Register Number (HRB):** 1234567B
+- **Court:** Amtsgericht Charlottenburg
+- **Managing Director:** Max Mustermann
+- **VAT ID:** DE24324567
+
+### Summary:
+The document is a credit note issued by Musterfirma AG to Herr Schmidt on 01.03.2019. The credit note number is 2019-1004, and the VAT ID is DE123456789. The credit note includes two positions of services provided, totaling a net price of 30,00 €, with an additional 19% VAT amounting to 5,70 €, making the total credit amount 35,70 €. The amount will be transferred to the recipient's account in the coming days. The company's contact details, bank details, and legal information are also provided.
