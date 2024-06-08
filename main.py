@@ -76,8 +76,11 @@ if uploaded_files:
         else:
             st.error(f"{file_name} is not a PDF file.")
 
+## Prompting
 user_query = st.chat_input("Ask Questions?")
 if user_query:
+    with st.chat_message("user"):
+        st.write(user_query)
     if ai_msg:  # Ensure ai_msg is not None
         # Prepare the input for the rag_chain
         input_for_rag_chain = {
@@ -105,5 +108,9 @@ if user_query:
             },
         ]
         response = client.invoke(messages)
+        total_tokens = response.response_metadata["token_usage"]["total_tokens"]
+        with st.chat_message("assistant"):
+            st.write(response.content)
+            st.write(total_tokens)
     else:
         st.error("No context available to answer the question.")
