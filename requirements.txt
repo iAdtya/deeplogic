@@ -1,0 +1,6 @@
+streamlit
+pytesseract
+pdf2image
+PIL
+langchain-openai
+UnstructuredPDFLoader

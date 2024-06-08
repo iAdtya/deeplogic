@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from openai import OpenAI
 from langchain_openai import ChatOpenAI
 from pydantic.v1 import SecretStr
 import pytesseract
